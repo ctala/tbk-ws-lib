@@ -46,19 +46,19 @@ class WSWebpayServiceImplService extends SoapClient {
      * @access private
      */
     private static $classmap = array(
-        'getTransactionResult' => '\getTransactionResult',
-        'getTransactionResultResponse' => '\getTransactionResultResponse',
-        'transactionResultOutput' => '\transactionResultOutput',
-        'cardDetail' => '\cardDetail',
-        'wsTransactionDetailOutput' => '\wsTransactionDetailOutput',
-        'wsTransactionDetail' => '\wsTransactionDetail',
-        'acknowledgeTransaction' => '\acknowledgeTransaction',
-        'acknowledgeTransactionResponse' => '\acknowledgeTransactionResponse',
-        'initTransaction' => '\initTransaction',
-        'wsInitTransactionInput' => '\wsInitTransactionInput',
-        'wpmDetailInput' => '\wpmDetailInput',
-        'initTransactionResponse' => '\initTransactionResponse',
-        'wsInitTransactionOutput' => '\wsInitTransactionOutput');
+        'getTransactionResult' => 'ctala\tbkwslib\classes\getTransactionResult',
+        'getTransactionResultResponse' => 'ctala\tbkwslib\classes\getTransactionResultResponse',
+        'transactionResultOutput' => 'ctala\tbkwslib\classes\transactionResultOutput',
+        'cardDetail' => 'ctala\tbkwslib\classes\cardDetail',
+        'wsTransactionDetailOutput' => 'ctala\tbkwslib\classes\wsTransactionDetailOutput',
+        'wsTransactionDetail' => 'ctala\tbkwslib\classes\wsTransactionDetail',
+        'acknowledgeTransaction' => 'ctala\tbkwslib\classes\acknowledgeTransaction',
+        'acknowledgeTransactionResponse' => 'ctala\tbkwslib\classes\acknowledgeTransactionResponse',
+        'initTransaction' => 'ctala\tbkwslib\classes\initTransaction',
+        'wsInitTransactionInput' => 'ctala\tbkwslib\classes\wsInitTransactionInput',
+        'wpmDetailInput' => 'ctala\tbkwslib\classes\wpmDetailInput',
+        'initTransactionResponse' => 'ctala\tbkwslib\classes\initTransactionResponse',
+        'wsInitTransactionOutput' => 'ctala\tbkwslib\classes\wsInitTransactionOutput');
 
     /**
      * @param array $options A array of config values
