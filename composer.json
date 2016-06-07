@@ -1,0 +1,21 @@
+{
+    "name": "ctala/tbk-ws-lib",
+    "description": "Librerías para WS de TBK",
+    "type": "library",
+    "keywords": ["transbank","webservices"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Cristian Tala S.",
+            "email": "yomismo@cristiantala.cl"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ctala\\tbkwslib\\": "",
+            "ctala\\tbkwslib\\classes\\": "Classes\\"
+        }
+    }
+}
